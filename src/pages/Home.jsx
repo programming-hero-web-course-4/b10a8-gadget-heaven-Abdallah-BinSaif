@@ -37,6 +37,7 @@ const Home = () => {
                         className={"md:w-64 bg-white p-4 rounded-lg grid grid-cols-3 md:grid-cols-1 gap-4 overflow-hidden"}>
                         {
                             fetchData.map(item => <NavLink
+                                key={item.id}
                                 to={`/category/${item.category}`}
                                 className={({isActive}) => isActive ? "bg-primary text-white p-4 rounded-full" : "bg-base-300 p-4 rounded-full"}>
                                 {item.category}</NavLink>)
