@@ -1,0 +1,564 @@
+[
+    {
+      "product_id": 101,
+      "product_title": "Dell XPS 13",
+      "product_image": "https://i.ibb.co/0GWn1XS/Dell-XPS-13.jpg",
+      "category": "Computers",
+      "price": 1200,
+      "description": "A sleek, lightweight laptop with a powerful Intel i7 processor.",
+      "Specification": [
+        "Intel Core i7",
+        "16GB RAM",
+        "512GB SSD",
+        "13.3 inch 4K UHD"
+      ],
+      "availability": true,
+      "rating": 4.5,
+        "color": "Silver",
+        "warranty": "1 year"
+    },
+    {
+      "product_id": 102,
+      "product_title": "Apple MacBook Pro 14",
+      "product_image": "https://i.ibb.co/RQbRnrJ/macbook-pro-14.jpg",
+      "category": "Computers",
+      "price": 1999,
+      "description": "The latest MacBook Pro with M1 Pro chip for high-end performance.",
+      "Specification": [
+        "Apple M1 Pro",
+        "16GB RAM",
+        "1TB SSD",
+        "14 inch Liquid Retina"
+      ],
+      "availability": true,
+      "rating": 4.8,
+        "color": "Space Gray",
+        "battery_life": "18 hours"
+    },
+    {
+      "product_id": 103,
+      "product_title": "HP Spectre x360",
+      "product_image": "https://i.ibb.co/tLy86wT/hp-spectre-x360.jpg",
+      "category": "Computers",
+      "price": 1350,
+      "description": "A powerful 2-in-1 laptop with a touchscreen and stylus support.",
+      "Specification": [
+        "Intel Core i7",
+        "16GB RAM",
+        "512GB SSD",
+        "13.3 inch FHD"
+      ],
+      "availability": true,
+      "rating": 4.6,
+        "color": "Nightfall Black",
+        "warranty": "2 years"
+    },
+    {
+      "product_id": 104,
+      "product_title": "Lenovo ThinkPad X1 Carbon",
+      "product_image": "https://i.ibb.co/KVQbFdP/thinkpad-x1.jpg",
+      "category": "Computers",
+      "price": 1450,
+      "description": "Business laptop known for durability, performance, and battery life.",
+      "Specification": [
+        "Intel Core i7",
+        "16GB RAM",
+        "1TB SSD",
+        "14 inch FHD"
+      ],
+      "availability": false,
+      "rating": 4.7,
+        "weight": "2.5 lbs",
+        "battery_life": "20 hours"
+    },
+    {
+      "product_id": 105,
+      "product_title": "Acer Predator Helios 300",
+      "product_image": "https://i.ibb.co/gPH3xs2/predator-helios-300.jpg",
+      "category": "Computers",
+      "price": 1500,
+      "description": "A gaming laptop with powerful graphics and high refresh rate display.",
+      "Specification": [
+        "Intel Core i7",
+        "16GB RAM",
+        "512GB SSD",
+        "NVIDIA GTX 1660 Ti",
+        "15.6 inch FHD 144Hz"
+      ],
+      "availability": true,
+      "rating": 4.4,
+        "color": "Black",
+        "cooling_system": "Dual Fan"
+    },
+    {
+      "product_id": 106,
+      "product_title": "Microsoft Surface Laptop 4",
+      "product_image": "https://i.ibb.co/VWvg94c/surface-laptop-4.jpg",
+      "category": "Computers",
+      "price": 1300,
+      "description": "A sleek laptop with PixelSense touchscreen and great battery life.",
+      "Specification": [
+        "AMD Ryzen 5",
+        "8GB RAM",
+        "256GB SSD",
+        "13.5 inch PixelSense"
+      ],
+      "availability": true,
+      "rating": 4.3,
+        "color": "Platinum",
+        "touchscreen": "Yes"
+    },
+    {
+        "product_id": 201,
+        "product_title": "iPhone 13",
+        "product_image": "https://i.ibb.co/ws9cN5m/iphone-13.jpg",
+        "category": "Phones",
+        "price": 799,
+        "description": "The latest iPhone with A15 Bionic chip and improved dual camera system.",
+        "Specification": [
+          "A15 Bionic",
+          "128GB storage",
+          "6.1 inch Super Retina XDR",
+          "Dual-camera system"
+        ],
+        "availability": true,
+        "rating": 4.9,
+          "color": "Blue",
+          "5G": "Yes"
+      },
+    {
+        "product_id": 202,
+        "product_title": "Samsung Galaxy S21",
+        "product_image": "https://i.ibb.co/VjS67tq/samsung-galaxy-s21.jpg",
+        "category": "Phones",
+        "price": 749,
+        "description": "High-end smartphone with advanced camera and 120Hz display.",
+        "Specification": [
+          "Exynos 2100",
+          "128GB storage",
+          "6.2 inch Dynamic AMOLED",
+          "Triple-camera system"
+        ],
+        "availability": true,
+        "rating": 4.8,
+          "color": "Phantom Gray",
+          "5G": "Yes"
+      },
+    {
+        "product_id": 203,
+        "product_title": "Google Pixel 6",
+        "product_image": "https://i.ibb.co/94Bh9rN/google-pixel-6.jpg",
+        "category": "Phones",
+        "price": 599,
+        "description": "Google's flagship phone with custom Tensor processor and excellent AI features.",
+        "Specification": [
+          "Google Tensor",
+          "128GB storage",
+          "6.4 inch OLED",
+          "Dual-camera system"
+        ],
+        "availability": true,
+        "rating": 4.7,
+          "color": "Sorta Seafoam",
+          "5G": "Yes"
+      },
+    {
+        "product_id": 301,
+        "product_title": "Apple Watch Series 7",
+        "product_image": "https://i.ibb.co/NWRJXcn/apple-watch-series-7.jpg",
+        "category": "Smart Watches",
+        "price": 399,
+        "description": "The latest Apple Watch with larger display and faster charging.",
+        "Specification": [
+          "GPS",
+          "Retina Display",
+          "Water Resistant 50m",
+          "18 hours battery life"
+        ],
+        "availability": true,
+        "rating": 4.7,
+          "color": "Midnight",
+          "case_size": "41mm"
+      },
+    {
+        "product_id": 302,
+        "product_title": "Samsung Galaxy Watch 4",
+        "product_image": "https://i.ibb.co/7ND51QM/galaxy-watch-4.jpg",
+        "category": "Smart Watches",
+        "price": 249,
+        "description": "Smart watch with advanced health tracking and customizable interface.",
+        "Specification": [
+          "Wear OS",
+          "ECG sensor",
+          "Sleep tracking",
+          "1.4 inch AMOLED display"
+        ],
+        "availability": true,
+        "rating": 4.6,
+          "color": "Black",
+          "battery_life": "40 hours"
+      },
+    {
+        "product_id": 303,
+        "product_title": "Fitbit Versa 3",
+        "product_image": "https://i.ibb.co/b3sXBzw/fitbit-versa-3.jpg",
+        "category": "Smart Watches",
+        "price": 229,
+        "description": "Versatile fitness watch with built-in GPS and voice assistant support.",
+        "Specification": [
+          "GPS",
+          "Heart Rate Monitor",
+          "Water Resistant 50m",
+          "6+ days battery life"
+        ],
+        "availability": true,
+        "rating": 4.4,
+          "color": "Pink Clay",
+          "compatibility": "iOS & Android"
+      },
+    {
+        "product_id": 401,
+        "product_title": "Anker Wireless Charger",
+        "product_image": "https://i.ibb.co/FJgf54J/anker-wireless-charger.jpg",
+        "category": "Chargers",
+        "price": 60,
+        "description": "Fast wireless charger compatible with most Qi-enabled devices.",
+        "Specification": [
+          "10W output",
+          "Compatible with Qi-enabled devices",
+          "LED indicator"
+        ],
+        "availability": true,
+        "rating": 4.5,
+          "color": "Black",
+          "cable_length": "3 ft"
+      },
+    {
+        "product_id": 402,
+        "product_title": "Samsung 25W Fast Charger",
+        "product_image": "https://i.ibb.co/MZYc3sF/samsung-fast-charger.jpg",
+        "category": "Chargers",
+        "price": 55,
+        "description": "Compact 25W fast charger with USB-C compatibility.",
+        "Specification": [
+          "25W output",
+          "USB-C connection",
+          "Compact design"
+        ],
+        "availability": true,
+        "rating": 4.6,
+          "color": "White",
+          "cable_included": "Yes"
+      },
+    {
+        "product_id": 403,
+        "product_title": "Belkin Dual USB Car Charger",
+        "product_image": "https://i.ibb.co/Bc8qqnj/belkin-car-charger.jpg",
+        "category": "Chargers",
+        "price": 80,
+        "description": "Dual USB car charger with fast charging for two devices simultaneously.",
+        "Specification": [
+          "12W output",
+          "Dual USB ports",
+          "LED indicator"
+        ],
+        "availability": true,
+        "rating": 4.4,
+          "color": "Black",
+          "car_compatibility": "All"
+      },
+    {
+        "product_id": 501,
+        "product_title": "Anker PowerCore 10000",
+        "product_image": "https://i.ibb.co/hsFPTmL/anker-powercore-10000.jpg",
+        "category": "Power Banks",
+        "price": 51,
+        "description": "Compact 10000mAh power bank with high-speed charging.",
+        "Specification": [
+          "10000mAh capacity",
+          "18W output",
+          "Compact design"
+        ],
+        "availability": true,
+        "rating": 4.6,
+          "color": "Black",
+          "weight": "180g"
+      },
+    {
+        "product_id": 502,
+        "product_title": "RAVPower Solar Power Bank",
+        "product_image": "https://i.ibb.co/KzLMHJs/ravpower-solar.jpg",
+        "category": "Power Banks",
+        "price": 70,
+        "description": "20000mAh solar power bank with waterproof design and LED flashlight.",
+        "Specification": [
+          "20000mAh capacity",
+          "Solar charging",
+          "Waterproof design"
+        ],
+        "availability": true,
+        "rating": 4.5,
+          "color": "Green",
+          "outdoor_ready": "Yes"
+      },
+    {
+        "product_id": 503,
+        "product_title": "Xiaomi Mi Power Bank 3",
+        "product_image": "https://i.ibb.co/K9nHRkw/mi-power-bank-3.jpg",
+        "category": "Power Banks",
+        "price": 54,
+        "description": "High-capacity 30000mAh power bank with dual USB output for multiple devices.",
+        "Specification": [
+          "30000mAh capacity",
+          "Dual USB output",
+          "Quick charge support"
+        ],
+        "availability": true,
+        "rating": 4.4,
+          "color": "White",
+          "weight": "420g"
+      },
+    {
+        "product_id": 601,
+        "product_title": "Apple AirPods Pro",
+        "product_image": "https://i.ibb.co/sb2wRJP/airpods-pro.jpg",
+        "category": "Accessories",
+        "price": 249,
+        "description": "Noise-cancelling wireless earbuds with spatial audio support.",
+        "Specification": [
+          "Active Noise Cancellation",
+          "Spatial audio",
+          "Sweat and water resistant"
+        ],
+        "availability": true,
+        "rating": 4.8,
+          "color": "White",
+          "battery_life": "24 hours"
+      },
+    {
+        "product_id": 602,
+        "product_title": "Logitech MX Master 3 Mouse",
+        "product_image": "https://i.ibb.co/JK0KWwz/logitech-mx-master-3.jpg",
+        "category": "Accessories",
+        "price": 99,
+        "description": "Advanced wireless mouse with ergonomic design and customizable buttons.",
+        "Specification": [
+          "Ergonomic design",
+          "Customizable buttons",
+          "4000 DPI sensor"
+        ],
+        "availability": true,
+        "rating": 4.7,
+          "color": "Graphite",
+          "connectivity": "Bluetooth & USB"
+      },
+    {
+        "product_id": 603,
+        "product_title": "Samsung T7 Portable SSD",
+        "product_image": "https://i.ibb.co/mSCDw9Y/samsung-t7-ssd.jpg",
+        "category": "Accessories",
+        "price": 130,
+        "description": "High-speed portable SSD with USB-C interface for fast data transfer.",
+        "Specification": [
+          "1TB storage",
+          "USB 3.2 Gen 2",
+          "Shock-resistant"
+        ],
+        "availability": true,
+        "rating": 4.6,
+          "color": "Blue",
+          "weight": "58g"
+      },
+    {
+        "product_id": 701,
+        "product_title": "Dell XPS 15",
+        "product_image": "https://i.ibb.co/rsq7QmR/dell-xps-15.jpg",
+        "category": "Laptops",
+        "price": 1800,
+        "description": "Premium laptop with a powerful processor and 4K display.",
+        "Specification": [
+          "Intel Core i9",
+          "32GB RAM",
+          "1TB SSD",
+          "15.6 inch 4K UHD"
+        ],
+        "availability": true,
+        "rating": 4.7,
+          "color": "Silver",
+          "graphics": "NVIDIA GTX 1650 Ti"
+      },
+    {
+        "product_id": 702,
+        "product_title": "HP Envy 13",
+        "product_image": "https://i.ibb.co/ypVyDms/hp-envy-13.jpg",
+        "category": "Laptops",
+        "price": 1100,
+        "description": "Compact laptop with excellent battery life and vibrant display.",
+        "Specification": [
+          "Intel Core i5",
+          "8GB RAM",
+          "512GB SSD",
+          "13.3 inch FHD"
+        ],
+        "availability": true,
+        "rating": 4.5,
+          "color": "Silver",
+          "weight": "1.3 kg"
+      },
+    {
+        "product_id": 703,
+        "product_title": "ASUS ZenBook Duo",
+        "product_image": "https://i.ibb.co/BwRXLrk/asus-zenbook-duo.jpg",
+        "category": "Laptops",
+        "price": 1500,
+        "description": "Innovative dual-screen laptop with high productivity features.",
+        "Specification": [
+          "Intel Core i7",
+          "16GB RAM",
+          "1TB SSD",
+          "14 inch FHD + secondary display"
+        ],
+        "availability": true,
+        "rating": 4.6,
+          "color": "Celestial Blue",
+          "touchscreen": "Yes"
+      },
+    {
+        "product_id": 801,
+        "product_title": "MacBook Air M1",
+        "product_image": "https://i.ibb.co/7G3jjkZ/macbook-air-m1.jpg",
+        "category": "MacBook",
+        "price": 999,
+        "description": "Lightweight and efficient MacBook with Apple's M1 chip.",
+        "Specification": [
+          "Apple M1 chip",
+          "8GB RAM",
+          "256GB SSD",
+          "13.3 inch Retina display"
+        ],
+        "availability": true,
+        "rating": 4.9,
+          "color": "Space Gray",
+          "battery_life": "Up to 18 hours"
+      },
+    {
+        "product_id": 802,
+        "product_title": "MacBook Pro 14 M1 Pro",
+        "product_image": "https://i.ibb.co/RQbRnrJ/macbook-pro-14.jpg",
+        "category": "MacBook",
+        "price": 1999,
+        "description": "High-performance laptop for professional use with M1 Pro chip.",
+        "Specification": [
+          "Apple M1 Pro",
+          "16GB RAM",
+          "512GB SSD",
+          "14 inch Liquid Retina XDR display"
+        ],
+        "availability": true,
+        "rating": 4.8,
+          "color": "Silver",
+          "battery_life": "17 hours"
+      },
+    {
+        "product_id": 803,
+        "product_title": "MacBook Pro 16 M1 Max",
+        "product_image": "https://i.ibb.co/S3nkSWq/macbook-pro-16.jpg",
+        "category": "MacBook",
+        "price": 2999,
+        "description": "Ultimate power and performance for professionals with M1 Max chip.",
+        "Specification": [
+          "Apple M1 Max",
+          "32GB RAM",
+          "1TB SSD",
+          "16 inch Liquid Retina XDR display"
+        ],
+        "availability": true,
+        "rating": 4.9,
+          "color": "Space Gray",
+          "graphics": "Integrated 32-core GPU"
+      },
+    {
+        "product_id": 901,
+        "product_title": "iPhone 13 Mini",
+        "product_image": "https://i.ibb.co/ZXZwcp5/iphone-13-mini.jpg",
+        "category": "iPhone",
+        "price": 699,
+        "description": "Compact version of iPhone 13 with powerful performance and great camera.",
+        "Specification": [
+          "A15 Bionic chip",
+          "128GB storage",
+          "5.4 inch Super Retina XDR",
+          "Dual-camera system"
+        ],
+        "availability": true,
+        "rating": 4.8,
+          "color": "Starlight",
+          "5G": "Yes"
+      },
+    {
+        "product_id": 902,
+        "product_title": "iPhone 13 Pro",
+        "product_image": "https://i.ibb.co/tmNJXqD/iphone-13-pro.jpg",
+        "category": "iPhone",
+        "price": 999,
+        "description": "Advanced iPhone model with triple camera and ProMotion display.",
+        "Specification": [
+          "A15 Bionic chip",
+          "128GB storage",
+          "6.1 inch Super Retina XDR",
+          "Triple-camera system"
+        ],
+        "availability": true,
+        "rating": 4.9,
+          "color": "Sierra Blue",
+          "5G": "Yes"
+      },
+    {
+        "product_id": 903,
+        "product_title": "iPhone 13 Pro Max",
+        "product_image": "https://i.ibb.co/59whgMy/iphone-13-pro-max.jpg",
+        "category": "iPhone",
+        "price": 1099,
+        "description": "Largest iPhone with ProMotion display and exceptional battery life.",
+        "Specification": [
+          "A15 Bionic chip",
+          "256GB storage",
+          "6.7 inch Super Retina XDR",
+          "Triple-camera system"
+        ],
+        "availability": true,
+        "rating": 4.9,
+          "color": "Graphite",
+          "5G": "Yes"
+      }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
