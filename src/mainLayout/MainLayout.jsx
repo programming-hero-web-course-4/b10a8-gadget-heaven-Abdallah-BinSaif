@@ -1,10 +1,26 @@
 import React from 'react';
+import Navbar from "../components/Navbar.jsx";
+import Footer from "../components/Footer.jsx";
+import {Outlet} from "react-router-dom";
 
 const MainLayout = () => {
     return (
-        <div>
-            MainLayout.jsx
-        </div>
+        <>
+            <div className={"container mx-auto"}>
+
+                {/*NavBar*/}
+                <Navbar></Navbar>
+                {/*Home*/}
+                <div className={"min-h-[calc(100vh-521px)]"}>
+                    {/*dynamic*/}
+                    <Outlet></Outlet>
+                </div>
+
+            </div>
+            {/*Footer*/}
+            <Footer></Footer>
+        </>
+
     );
 };
 

@@ -1,49 +1,52 @@
-{
-  "categories": [
+[
+    {
+      "id": 0,
+      "category": "All",
+      "slug": "all"
+    },
     {
       "id": 1,
-      "name": "Computers",
+      "category": "Computers",
       "slug": "computers"
     },
     {
       "id": 2,
-      "name": "Phones",
+      "category": "Phones",
       "slug": "phones"
     },
     {
       "id": 3,
-      "name": "Smart Watches",
+      "category": "Smart Watches",
       "slug": "smart-watches"
     },
     {
       "id": 4,
-      "name": "Chargers",
+      "category": "Chargers",
       "slug": "chargers"
     },
     {
       "id": 5,
-      "name": "Power Banks",
+      "category": "Power Banks",
       "slug": "power-banks"
     },
     {
       "id": 6,
-      "name": "Accessories",
+      "category": "Accessories",
       "slug": "accessories"
     },
     {
       "id": 7,
-      "name": "Laptops",
+      "category": "Laptops",
       "slug": "laptops"
     },
     {
       "id": 8,
-      "name": "MacBook",
+      "category": "MacBook",
       "slug": "macbook"
     },
     {
       "id": 9,
-      "name": "iPhone",
+      "category": "iPhone",
       "slug": "iphone"
     }
-  ]
-}
+]
