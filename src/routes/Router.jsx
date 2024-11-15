@@ -7,17 +7,24 @@ import Products from "../components/productCategory/Products.jsx";
 import ProductDetails from "../pages/ProductDetails.jsx";
 import Wishlist from "../components/dashboard/Wishlist.jsx";
 import Carts from "../components/dashboard/Carts.jsx";
+import ErrorPage from "../components/ErrorPage.jsx";
 
 const router = createBrowserRouter([
     {
         path: "/",
         element: <MainLayout></MainLayout>,
+        errorElement: <ErrorPage></ErrorPage>,
         children: [
             {
                 path: "/",
                 element: <Home></Home>,
                 loader: ()=>fetch("../category.json"),
                 children:[
+                    {
+                        path: "/",
+                        loader: ()=> fetch("../products.json"),
+                        element: <Products></Products>
+                    },
                     {
                         path: "/category/:category",
                         loader: ()=> fetch("../products.json"),

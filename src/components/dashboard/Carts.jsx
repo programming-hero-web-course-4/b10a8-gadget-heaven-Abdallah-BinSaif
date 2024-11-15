@@ -15,6 +15,11 @@ const Carts = () => {
         setPrice(newPrice)
         setCartItems(items)
     }
+    const handleSortByPrice = () => {
+        const items = getFromLocal("cart");
+        const sortedItems = [...items].sort((a,b)=>b.price - a.price )
+        setCartItems(sortedItems)
+    }
 
     useEffect(() => {
         const items = getFromLocal("cart");
@@ -33,7 +38,7 @@ const Carts = () => {
                 <h4 className={"text-2xl font-semibold"}>Cart</h4>
                 <div className={"flex gap-8 justify-center items-center"}>
                     <p className={"text-2xl font-semibold"}>Price: $ {price}</p>
-                    <button className={"btn rounded-full border-2 px-8 border-primary text-primary"}>Sort by Price</button>
+                    <button onClick={handleSortByPrice} className={"btn rounded-full border-2 px-8 border-primary text-primary"}>Sort by Price</button>
                     <button className={"btn rounded-full border-2 border-primary bg-primary px-8 text-white"}>Purchase</button>
                 </div>
             </div>

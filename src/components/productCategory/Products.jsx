@@ -6,15 +6,21 @@ const Products = () => {
     const [products, setProducts] = useState([])
     const fetchData = useLoaderData();
     const {category} = useParams();
+    console.log(fetchData)
 
     useEffect(() => {
-        if(category === "All"){
-            setProducts(fetchData)
+        if(category){
+            if(category === "All"){
+                setProducts(fetchData)
+            }else{
+                const filteredProduct = fetchData.filter(product => product.category === category)
+                setProducts(filteredProduct)
+            }
         }else{
-            const filteredProduct = fetchData.filter(product => product.category === category)
-            setProducts(filteredProduct)
+            setProducts(fetchData.slice(0, 6))
         }
-    }, [category]);
+
+    }, [category,fetchData]);
 
     return (
         <>

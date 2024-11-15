@@ -44,6 +44,7 @@ const removeFromLocal = (place, id) => {
     const items = getFromLocal(place)
     const remaining = items.filter(item=> item.product_id !== id)
     localStorage.setItem(place,JSON.stringify(remaining))
+    warn("This deleted")
 }
 
 // functions
