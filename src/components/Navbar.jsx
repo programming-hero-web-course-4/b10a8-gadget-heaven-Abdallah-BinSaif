@@ -7,9 +7,9 @@ const Navbar = () => {
     const {pathname} = useLocation();
     const path= pathname.split("/")[1]
     useEffect(() => {
-        if(pathname=== "/stat"){
+        if(path=== "stat"){
             setActivate(true)
-        }else if(pathname=== "/dash"){
+        }else if(path=== "dash"){
             setActivate(true)
         }else if(path=== "detail"){
             setActivate(true)
@@ -17,6 +17,7 @@ const Navbar = () => {
             setActivate(false)
         }
     }, [pathname]);
+    console.log(path, pathname)
 
     return (
         <nav className={`container mx-auto md:flex justify-around items-center relative ${activate ? "" : "text-white"} z-50 py-8`}>

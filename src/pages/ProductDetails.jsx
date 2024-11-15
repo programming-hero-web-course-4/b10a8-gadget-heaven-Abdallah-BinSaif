@@ -3,8 +3,10 @@ import Heading from "../components/Heading.jsx";
 import {useLoaderData, useParams} from "react-router-dom";
 import {FaRegHeart, FaRegStar, FaStar} from "react-icons/fa";
 import {IoCartOutline} from "react-icons/io5";
+import {addToLocal, getFromLocal} from "../Utils/utilities.js";
 
 const ProductDetails = () => {
+    const [disable, setDisable] = useState(false)
     const [product, setProduct] = useState({})
     const fetchData = useLoaderData();
     const {id} = useParams();
@@ -12,8 +14,27 @@ const ProductDetails = () => {
     useEffect(() => {
         const singleProduct = fetchData.find(item => item.product_id === parseInt(id))
         setProduct(singleProduct)
+        const heart = getFromLocal("heart")
+        const isExist = heart.find(product => product.product_id === singleProduct.product_id)
+        setDisable(!!isExist)
+
     }, [fetchData, id]);
-    console.log(id)
+
+    const handleCart = (place, item) => {
+        addToLocal(place, item)
+    }
+    const handleWishList = (place, item) => {
+        addToLocal(place, item)
+        setDisable(true)
+    }
+
+    
+    
+    
+    
+    
+    
+    
     const {
         product_title:name,
         product_image:image,
@@ -64,8 +85,8 @@ const ProductDetails = () => {
                         </div>
 
                         <div className={"flex"}>
-                            <div className="cursor-pointer rounded-full bg-primary text-white px-4 py-2 flex justify-center items-center gap-4">Add To Card<IoCartOutline size={26}></IoCartOutline></div>
-                            <div className="cursor-pointer p-2 text-xl border-4 rounded-full flex justify-center items-center ml-2"><FaRegHeart></FaRegHeart></div>
+                            <div onClick={()=>handleCart("cart", product)} className="cursor-pointer rounded-full bg-primary text-white px-4 py-2 flex justify-center items-center gap-4">Add To Card<IoCartOutline size={26}></IoCartOutline></div>
+                            <button disabled={disable} onClick={()=>handleWishList("heart", product)} className="btn bg-white cursor-pointer p-3 text-xl border-2 border-black/40 rounded-full flex justify-center items-center ml-2"><FaRegHeart></FaRegHeart></button>
                         </div>
                     </div>
                 </div>
