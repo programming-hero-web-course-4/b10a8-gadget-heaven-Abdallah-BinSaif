@@ -5,19 +5,21 @@ import {IoCartOutline, IoHeartOutline} from "react-icons/io5";
 const Navbar = () => {
     const [activate, setActivate] = useState(null);
     const {pathname} = useLocation();
+    const path= pathname.split("/")[1]
     useEffect(() => {
         if(pathname=== "/stat"){
             setActivate(true)
         }else if(pathname=== "/dash"){
+            setActivate(true)
+        }else if(path=== "detail"){
             setActivate(true)
         }else{
             setActivate(false)
         }
     }, [pathname]);
 
-    console.log(pathname)
     return (
-        <nav className={`md:flex justify-around items-center relative ${activate ? "" : "text-white"} z-50 py-8`}>
+        <nav className={`container mx-auto md:flex justify-around items-center relative ${activate ? "" : "text-white"} z-50 py-8`}>
             <div className={"font-semibold text-2xl"}>Gadget Heaven</div>
             <div>
                 <ul className={"md:flex gap-8"}>

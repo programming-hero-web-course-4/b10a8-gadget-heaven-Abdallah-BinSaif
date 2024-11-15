@@ -1,78 +1,5 @@
 [
     {
-      "product_id": 101,
-      "product_title": "Dell XPS 13",
-      "product_image": "https://i.ibb.co/0GWn1XS/Dell-XPS-13.jpg",
-      "category": "Computers",
-      "price": 1200,
-      "description": "A sleek, lightweight laptop with a powerful Intel i7 processor.",
-      "Specification": [
-        "Intel Core i7",
-        "16GB RAM",
-        "512GB SSD",
-        "13.3 inch 4K UHD"
-      ],
-      "availability": true,
-      "rating": 4.5,
-        "color": "Silver",
-        "warranty": "1 year"
-    },
-    {
-      "product_id": 105,
-      "product_title": "Acer Predator Helios 300",
-      "product_image": "https://i.ibb.co/gPH3xs2/predator-helios-300.jpg",
-      "category": "Computers",
-      "price": 1500,
-      "description": "A gaming laptop with powerful graphics and high refresh rate display.",
-      "Specification": [
-        "Intel Core i7",
-        "16GB RAM",
-        "512GB SSD",
-        "NVIDIA GTX 1660 Ti",
-        "15.6 inch FHD 144Hz"
-      ],
-      "availability": true,
-      "rating": 4.4,
-        "color": "Black",
-        "cooling_system": "Dual Fan"
-    },
-  {
-    "product_id": 703,
-    "product_title": "ASUS ZenBook Duo",
-    "product_image": "https://i.ibb.co/BwRXLrk/asus-zenbook-duo.jpg",
-    "category": "Laptops",
-    "price": 1500,
-    "description": "Innovative dual-screen laptop with high productivity features.",
-    "Specification": [
-      "Intel Core i7",
-      "16GB RAM",
-      "1TB SSD",
-      "14 inch FHD + secondary display"
-    ],
-    "availability": true,
-    "rating": 4.6,
-    "color": "Celestial Blue",
-    "touchscreen": "Yes"
-  },
-  {
-    "product_id": 803,
-    "product_title": "MacBook Pro 16 M1 Max",
-    "product_image": "https://i.ibb.co/S3nkSWq/macbook-pro-16.jpg",
-    "category": "MacBook",
-    "price": 2999,
-    "description": "Ultimate power and performance for professionals with M1 Max chip.",
-    "Specification": [
-      "Apple M1 Max",
-      "32GB RAM",
-      "1TB SSD",
-      "16 inch Liquid Retina XDR display"
-    ],
-    "availability": true,
-    "rating": 4.9,
-    "color": "Space Gray",
-    "graphics": "Integrated 32-core GPU"
-  },
-    {
         "product_id": 402,
         "product_title": "Samsung 25W Fast Charger",
         "product_image": "https://i.ibb.co/MZYc3sF/samsung-fast-charger.jpg",
@@ -160,6 +87,61 @@
     "rating": 4.4,
     "color": "Pink Clay",
     "compatibility": "iOS & Android"
+  },
+  {
+    "product_id": 105,
+    "product_title": "Acer Predator Helios 300",
+    "product_image": "https://i.ibb.co/gPH3xs2/predator-helios-300.jpg",
+    "category": "Computers",
+    "price": 1500,
+    "description": "A gaming laptop with powerful graphics and high refresh rate display.",
+    "Specification": [
+      "Intel Core i7",
+      "16GB RAM",
+      "512GB SSD",
+      "NVIDIA GTX 1660 Ti",
+      "15.6 inch FHD 144Hz"
+    ],
+    "availability": true,
+    "rating": 4.4,
+    "color": "Black",
+    "cooling_system": "Dual Fan"
+  },
+  {
+    "product_id": 703,
+    "product_title": "ASUS ZenBook Duo",
+    "product_image": "https://i.ibb.co/BwRXLrk/asus-zenbook-duo.jpg",
+    "category": "Laptops",
+    "price": 1500,
+    "description": "Innovative dual-screen laptop with high productivity features.",
+    "Specification": [
+      "Intel Core i7",
+      "16GB RAM",
+      "1TB SSD",
+      "14 inch FHD + secondary display"
+    ],
+    "availability": true,
+    "rating": 4.6,
+    "color": "Celestial Blue",
+    "touchscreen": "Yes"
+  },
+  {
+    "product_id": 803,
+    "product_title": "MacBook Pro 16 M1 Max",
+    "product_image": "https://i.ibb.co/S3nkSWq/macbook-pro-16.jpg",
+    "category": "MacBook",
+    "price": 2999,
+    "description": "Ultimate power and performance for professionals with M1 Max chip.",
+    "Specification": [
+      "Apple M1 Max",
+      "32GB RAM",
+      "1TB SSD",
+      "16 inch Liquid Retina XDR display"
+    ],
+    "availability": true,
+    "rating": 4.9,
+    "color": "Space Gray",
+    "graphics": "Integrated 32-core GPU"
   },
     {
         "product_id": 501,
@@ -249,6 +231,24 @@
           "color": "Green",
           "outdoor_ready": "Yes"
       },
+  {
+    "product_id": 101,
+    "product_title": "Dell XPS 13",
+    "product_image": "https://i.ibb.co/0GWn1XS/Dell-XPS-13.jpg",
+    "category": "Computers",
+    "price": 1200,
+    "description": "A sleek, lightweight laptop with a powerful Intel i7 processor.",
+    "Specification": [
+      "Intel Core i7",
+      "16GB RAM",
+      "512GB SSD",
+      "13.3 inch 4K UHD"
+    ],
+    "availability": true,
+    "rating": 4.5,
+    "color": "Silver",
+    "warranty": "1 year"
+  },
   {
     "product_id": 301,
     "product_title": "Apple Watch Series 7",

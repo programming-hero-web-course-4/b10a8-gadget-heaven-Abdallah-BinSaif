@@ -1,13 +1,11 @@
 import React, {useEffect, useState} from 'react';
 import {useLoaderData, useLocation, useParams} from "react-router-dom";
-import Button from "../Button.jsx";
 import SingleProduct from "./SingleProduct.jsx";
 
 const Products = () => {
     const [products, setProducts] = useState([])
     const fetchData = useLoaderData();
     const {category} = useParams();
-    console.log(category)
 
     useEffect(() => {
         if(category === "All"){

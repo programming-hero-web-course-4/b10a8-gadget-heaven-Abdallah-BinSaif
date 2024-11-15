@@ -6,7 +6,6 @@ import Products from "../components/productCategory/Products.jsx";
 
 const Home = () => {
     const fetchData = useLoaderData();
-    console.log(fetchData)
     const navigate = useNavigate();
     const handleDash = () => {
         navigate("/dash")
@@ -14,7 +13,7 @@ const Home = () => {
     return (
 
         <>
-            <div className="hero bg-primary text-white pt-32 pb-64 rounded-3xl z-20 relative -top-36 md:-top-20">
+            <div className="container mx-auto hero bg-primary text-white pt-32 pb-64 rounded-3xl z-20 relative -top-36 md:-top-20">
                 <div className="hero-content text-center">
                     <div>
                         <h1 className="text-5xl font-bold">Upgrade Your Tech Accessorize with Gadget Heaven
@@ -31,7 +30,7 @@ const Home = () => {
             </div>
             <BannerImage></BannerImage>
             <h3 className={"text-center text-4xl font-semibold py-8 mt-12"}>Explore Cutting-Edge Gadgets</h3>
-            <div className={"flex flex-col md:flex-row py-12"}>
+            <div className={"flex flex-col md:flex-row py-12 container mx-auto"}>
                 <div>
                     <div
                         className={"md:w-64 bg-white p-4 rounded-lg grid grid-cols-3 md:grid-cols-1 gap-4 overflow-hidden"}>
