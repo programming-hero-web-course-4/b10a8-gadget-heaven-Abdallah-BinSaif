@@ -9,14 +9,14 @@ const Dashboard = () => {
                 <Heading
                     title={"Dashboard"}
                     subtitle={"Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!"}></Heading>
-                <div className={"container mx-auto flex justify-center"}>
+                <div className={"container mx-auto flex justify-center gap-4"}>
                     <NavLink
                         to={"/dash/cart"}
-                        className={({isActive})=>isActive? "btn bg-white rounded-full px-12 text-black": "btn bg-transparent rounded-full px-12 text-white"}
+                        className={({isActive})=>isActive? "btn bg-white rounded-full px-12 text-black": "btn bg-transparent rounded-full px-12 text-white hover:text-black/95"}
                     >Cart</NavLink>
                     <NavLink
                         to={"/dash/wish"}
-                        className={({isActive})=>isActive? "btn bg-white rounded-full px-12 text-black": "btn bg-transparent rounded-full px-12 text-white"}
+                        className={({isActive})=>isActive? "btn bg-white rounded-full px-12 text-black": "btn bg-transparent rounded-full px-12 text-white hover:text-black/95"}
                     >Wishlist</NavLink>
                 </div>
             </div>

@@ -24,14 +24,14 @@ const addToLocal = (place, item) => {
             localStorage.setItem("cart",JSON.stringify(cart))
             success("Added to Cart")
         }
-    }else if(place === "heart"){
-        const heart = getFromLocal("heart")
-        const isExist = heart.find(product => product.product_id === item.product_id)
+    }else if(place === "wish"){
+        const wish = getFromLocal("wish")
+        const isExist = wish.find(product => product.product_id === item.product_id)
         if(isExist){
             return ""
         }else{
-            heart.push(item)
-            localStorage.setItem("heart",JSON.stringify(heart))
+            wish.push(item)
+            localStorage.setItem("wish",JSON.stringify(wish))
             success("Added to Wish List ")
         }
     }
@@ -40,21 +40,25 @@ const addToLocal = (place, item) => {
 
 
 // remove from localStorage
-
+const removeFromLocal = (place, id) => {
+    const items = getFromLocal(place)
+    const remaining = items.filter(item=> item.product_id !== id)
+    localStorage.setItem(place,JSON.stringify(remaining))
+}
 
 // functions
 
-function isExist(item){
-    const cart = getFromLocal("cart")
-    const isExist = cart.find(product => product.product_id === item.product_id);
-
-    return !!isExist;
-    // if(isExist){
-    //     return true;
-    // }else{
-    //     return false;
-    // }
-}
+// function isExist(item){
+//     const cart = getFromLocal("cart")
+//     const isExist = cart.find(product => product.product_id === item.product_id);
+//
+//     return !!isExist;
+//     // if(isExist){
+//     //     return true;
+//     // }else{
+//     //     return false;
+//     // }
+// }
 
 function warn(text){
     toast.warn(text,{
@@ -72,4 +76,4 @@ function success(text){
 }
 
 
-export {addToLocal, getFromLocal};
+export {addToLocal, getFromLocal, removeFromLocal};

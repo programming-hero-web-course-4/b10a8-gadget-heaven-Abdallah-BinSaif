@@ -17,7 +17,6 @@ const Navbar = () => {
             setActivate(false)
         }
     }, [pathname]);
-    console.log(path, pathname)
 
     return (
         <nav className={`container mx-auto md:flex justify-around items-center relative ${activate ? "" : "text-white"} z-50 py-8`}>

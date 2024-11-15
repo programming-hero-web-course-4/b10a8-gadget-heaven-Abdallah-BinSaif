@@ -14,8 +14,8 @@ const ProductDetails = () => {
     useEffect(() => {
         const singleProduct = fetchData.find(item => item.product_id === parseInt(id))
         setProduct(singleProduct)
-        const heart = getFromLocal("heart")
-        const isExist = heart.find(product => product.product_id === singleProduct.product_id)
+        const wish = getFromLocal("wish")
+        const isExist = wish.find(product => product.product_id === singleProduct.product_id)
         setDisable(!!isExist)
 
     }, [fetchData, id]);
@@ -28,12 +28,6 @@ const ProductDetails = () => {
         setDisable(true)
     }
 
-    
-    
-    
-    
-    
-    
     
     const {
         product_title:name,
@@ -86,7 +80,7 @@ const ProductDetails = () => {
 
                         <div className={"flex"}>
                             <div onClick={()=>handleCart("cart", product)} className="cursor-pointer rounded-full bg-primary text-white px-4 py-2 flex justify-center items-center gap-4">Add To Card<IoCartOutline size={26}></IoCartOutline></div>
-                            <button disabled={disable} onClick={()=>handleWishList("heart", product)} className="btn bg-white cursor-pointer p-3 text-xl border-2 border-black/40 rounded-full flex justify-center items-center ml-2"><FaRegHeart></FaRegHeart></button>
+                            <button disabled={disable} onClick={()=>handleWishList("wish", product)} className="btn bg-white cursor-pointer p-3 text-xl border-2 border-black/40 rounded-full flex justify-center items-center ml-2"><FaRegHeart></FaRegHeart></button>
                         </div>
                     </div>
                 </div>
