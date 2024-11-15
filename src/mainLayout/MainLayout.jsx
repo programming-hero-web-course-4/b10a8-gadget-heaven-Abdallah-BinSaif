@@ -4,23 +4,27 @@ import Footer from "../components/Footer.jsx";
 import {Outlet} from "react-router-dom";
 import {ToastContainer} from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
+import {HelmetProvider} from "react-helmet-async";
 
 const MainLayout = () => {
     return (
         <>
-            <div>
+            <HelmetProvider>
+                <div>
 
-                {/*NavBar*/}
-                <Navbar></Navbar>
-                {/*Home*/}
-                <div className={"min-h-[calc(100vh-521px)]"}>
-                    {/*dynamic*/}
-                    <Outlet></Outlet>
+                    {/*NavBar*/}
+                    <Navbar></Navbar>
+                    {/*Home*/}
+                    <div className={"min-h-[calc(100vh-521px)]"}>
+                        {/*dynamic*/}
+                        <Outlet></Outlet>
+                    </div>
+
                 </div>
+                {/*Footer*/}
+                <Footer></Footer>
+            </HelmetProvider>
 
-            </div>
-            {/*Footer*/}
-            <Footer></Footer>
 
             <ToastContainer></ToastContainer>
         </>

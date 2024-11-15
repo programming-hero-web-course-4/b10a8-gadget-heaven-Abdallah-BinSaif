@@ -15,7 +15,7 @@ const Wishlist = () => {
     }, [setWishItems]);
     return (
         <div className={"container mx-auto my-4"}>
-            <h4 className={"text-2xl font-semibold py-4"}>Cart</h4>
+            <h4 className={"text-2xl font-semibold py-4"}>Wishlist</h4>
             <div className={"space-y-4"}>
                 {
                     wishItems.map(wish => <DashboardItem

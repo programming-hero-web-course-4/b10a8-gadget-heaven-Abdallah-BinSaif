@@ -1,10 +1,14 @@
 import React from 'react';
 import Heading from "../components/Heading.jsx";
 import {NavLink, Outlet} from "react-router-dom";
+import {Helmet} from "react-helmet-async";
 
 const Dashboard = () => {
     return (
         <div>
+            <Helmet>
+                <title>GadgetHeaven | Dashboard</title>
+            </Helmet>
             <div className={"bg-primary text-white py-20 space-y-4"}>
                 <Heading
                     title={"Dashboard"}
@@ -21,6 +25,8 @@ const Dashboard = () => {
                 </div>
             </div>
             <Outlet></Outlet>
+
+
         </div>
     );
 };

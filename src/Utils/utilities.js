@@ -3,9 +3,9 @@ import {toast} from "react-toastify";
 
 const getFromLocal = (place) => {
     const item = localStorage.getItem(place)
-    const parsesItem = JSON.parse(item)
+
     if(item){
-        return parsesItem;
+        return  JSON.parse(item);
     }else{
         return [];
     }

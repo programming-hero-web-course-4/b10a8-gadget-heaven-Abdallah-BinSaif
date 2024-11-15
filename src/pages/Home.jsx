@@ -3,6 +3,7 @@ import Button from "../components/Button.jsx";
 import BannerImage from "../components/BannerImage.jsx";
 import {NavLink, Outlet, useLoaderData, useNavigate} from "react-router-dom";
 import Products from "../components/productCategory/Products.jsx";
+import {Helmet} from "react-helmet-async";
 
 const Home = () => {
     const fetchData = useLoaderData();
@@ -13,6 +14,9 @@ const Home = () => {
     return (
 
         <>
+            <Helmet>
+                <title>GadgetHeaven | Home</title>
+            </Helmet>
             <div className="container mx-auto hero bg-primary text-white pt-32 pb-64 rounded-3xl z-20 relative -top-36 md:-top-20">
                 <div className="hero-content text-center">
                     <div>
