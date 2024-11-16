@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {NavLink, useLocation} from "react-router-dom";
+import {Link, NavLink, useLocation} from "react-router-dom";
 import {IoCartOutline, IoHeartOutline} from "react-icons/io5";
 
 const Navbar = () => {
@@ -29,8 +29,12 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className={"hidden md:flex gap-4 text-xl"}>
-                <div className={"p-2 bg-gray-200 rounded-full text-black"}><IoCartOutline></IoCartOutline></div>
-                <div className={"p-2 bg-gray-200 rounded-full text-black"}><IoHeartOutline></IoHeartOutline></div>
+                <NavLink to={"/dash/cart"} className={({isActive})=> isActive? "bg-white rounded-full": ""}>
+                    <div className={"p-2 rounded-full text-black"}><IoCartOutline></IoCartOutline></div>
+                </NavLink>
+                <NavLink to={"/dash/wish"} className={({isActive})=> isActive? "bg-white rounded-full": ""}>
+                    <div className={"p-2 rounded-full text-black"}><IoHeartOutline></IoHeartOutline></div>
+                </NavLink>
             </div>
         </nav>
     );
