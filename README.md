@@ -1,8 +1,29 @@
-# React + Vite
+# Gadget Heaven
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This website is a modern platform designed to provide customers with a seamless shopping experience for electronic items. The site features a clean and user-friendly layout, making it easy to explore categories like smartphones, laptops, home appliances, and more.
 
-Currently, two official plugins are available:
+### Live Link
+- [SURGE](https://thankful-gadget.surge.sh/stat)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+## Fundamental of React concepts
+- useState
+- NavLink
+- Link
+- errorElement
+- useNavigate
+- UseNavigation
+- etc.
+
+
+> In this website I am using Local Storage for handling and managing data
+
+
+## Features of Project
+1. Latest gadget collection
+2. Cart Section for group payment
+3. Wishlist section 
+4. pageDetails section
+5. this Project with react , react-router
+6. this project have dynamic title
